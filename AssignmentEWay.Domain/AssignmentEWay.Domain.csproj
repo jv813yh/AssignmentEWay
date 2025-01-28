@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="eWayCRM.API" Version="1.6.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AssignmentEWay.Data\AssignmentEWay.Data.csproj" />
+    <ProjectReference Include="..\AssignmentEWay.Shared\AssignmentEWay.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
