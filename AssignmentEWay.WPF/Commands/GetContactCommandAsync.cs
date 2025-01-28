@@ -68,7 +68,8 @@ namespace AssignmentEWay.WPF.Commands
 
             // Check if the email address is valid
             // Very simple validation, it should be improved
-            if (!_homeViewModel.EmailAddress.Contains("@"))
+            if (!_homeViewModel.EmailAddress.Contains("@") &&
+                parameter is null)
             {
                 // Set the message to be displayed
                 _homeViewModel.Message.IsError = true;
