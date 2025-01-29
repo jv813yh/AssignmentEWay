@@ -64,7 +64,7 @@ namespace AssignmentEWay.WPF.ViewModels
                 {
                     _searchEmailAddresses = value;
                     OnPropertyChanged(nameof(SearchEmailAddresses));
-                    RecentContactsCollectionView.Refresh();
+                    RecentContactsCollectionView?.Refresh();
                 }
             }
         }
